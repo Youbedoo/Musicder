@@ -33,7 +33,7 @@ export default class MainScreen extends React.Component {
                                 <input type="text" placeholder="Search for Songs, Albums" onChange={this.myChangeHandler} />
                             </div>
                             <div className="input-field second-wrap">
-                                <Link to={`search?query=${this.state.searchQuery}`}>
+                                <Link to={`/search?query=${this.state.searchQuery}`}>
                                     <button className="btn-search" type="button">SEARCH</button>
                                 </Link>
                             </div>
